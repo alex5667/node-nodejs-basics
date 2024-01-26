@@ -1,1 +1,4 @@
-console.log('Hello from c.js!');
+const message = "Hello from c.js!";
+// console.log(message);
+
+export default message;
