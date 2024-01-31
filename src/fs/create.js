@@ -17,7 +17,7 @@ const create = async () => {
       await fs.writeFile(filePath, "I am fresh and young");
       console.log("File created successfully.");
     } else {
-      console.error("Error:", err.message);
+      console.log("FS operation failed");
     }
   }
 };

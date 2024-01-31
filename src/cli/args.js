@@ -16,7 +16,7 @@ const parseArgs = () => {
   }
 
   for (const propName in parsedArgs) {
-    console.log(`${propName} is ${parsedArgs[propName]}`);
+    console.log(`${propName} is ${parsedArgs[propName]},`);
   }
 };
 
